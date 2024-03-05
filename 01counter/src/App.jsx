@@ -14,7 +14,7 @@ function App() {
     if(counter > 19) {
       counter = 20;
     } else{
-      /*setCounter returns a callback which is the previous state.*/
+      /*setCounter  returns  a callback which is the previous state.*/
       // setCounter((prevCounter) => prevCounter + 1);
       // setCounter((prevCounter) => prevCounter + 1);
       setCounter(counter + 1);
