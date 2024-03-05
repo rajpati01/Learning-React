@@ -10,9 +10,13 @@ function App() {
   const addValue = () => {
     // console.log("value added", counter);
     // counterValue = counterValue + 1;
+    
     if(counter > 19) {
       counter = 20;
     } else{
+      /*setCounter returns a callback which is the previous state.*/
+      // setCounter((prevCounter) => prevCounter + 1);
+      // setCounter((prevCounter) => prevCounter + 1);
       setCounter(counter + 1);
     }
   }
